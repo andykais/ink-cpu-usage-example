@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/",
+    "incremental": true,
+    "tsBuildInfoFile": "./node_modules/.cache/tsconfig.buildinfo",
+    "jsx": "react",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2017",
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*"]
+}
